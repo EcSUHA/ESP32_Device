@@ -18,7 +18,7 @@ idf_component_register(SRCS "SCDE_Main.c"
 # Create and import the library targets
 
  # The SCDE default library targets
-   include(lib/DefaultLibTargets.txt)
+   include(scde_core2/DefaultLibTargets.txt)
  
  # This SCDE projects additional library targets
  
