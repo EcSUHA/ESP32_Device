@@ -1,0 +1,31 @@
+Umbau commands auf 
+
+struct Head_String_s Setstate_CommandFn (const String_t argsString)
+oder?
+Head_String_t Setstate_CommandFn(const String_t argsString)
+
+-> es wird eine ganze queue zurückgegeben!
+
+Commands:
+
+done:
+
+-Setstate
+-IOWrite
+-Deleteattr
+-IOWrite
+
+toDo:
+
+Add
+Attr
+Delete
+Help
+Include
+List
+rename
+rereadcfg
+save
+set
+shutdown
+sub
