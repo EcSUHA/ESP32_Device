@@ -780,7 +780,7 @@ struct Entry_Definition_s {
 
   int defCtrlRegA; //common_definition_control_register_a	// Definition Control Reg A (enum Common_DefCtrlRegA)
 
-  xSemaphoreHandle def_mux; //definition_mux 
+//  xSemaphoreHandle def_mux; //definition_mux 
 
   bulkUpdateReadings_t *bulkUpdateReadings;
   STAILQ_HEAD (stailhead6, reading_s) headReadings;//head_readings	// Link to assigned Attributes

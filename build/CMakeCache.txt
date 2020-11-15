@@ -15,13 +15,13 @@
 ########################
 
 //Value Computed by CMake
-Attr_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Attr_Command
+Attr_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Attr_Command
 
 //Dependencies for the target
 Attr_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Attr_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Attr_Command
+Attr_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Attr_Command
 
 //No help, variable specified on the command line.
 CCACHE_ENABLE:UNINITIALIZED=0
@@ -239,31 +239,31 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/maikschulze/ESP32/esp-idf/tools/cmake/toolch
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Define_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Define_Command
+Define_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Define_Command
 
 //Dependencies for the target
 Define_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Define_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Define_Command
+Define_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Define_Command
 
 //Value Computed by CMake
-Delete_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Delete_Command
+Delete_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Delete_Command
 
 //Dependencies for the target
 Delete_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Delete_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Delete_Command
+Delete_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Delete_Command
 
 //Value Computed by CMake
-Deleteattr_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Deleteattr_Command
+Deleteattr_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Deleteattr_Command
 
 //Dependencies for the target
 Deleteattr_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Deleteattr_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Deleteattr_Command
+Deleteattr_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Deleteattr_Command
 
 //Build mbed TLS programs.
 ENABLE_PROGRAMS:BOOL=
@@ -281,31 +281,31 @@ ESP_PLATFORM:UNINITIALIZED=1
 GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
 //Value Computed by CMake
-Get_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Get_Command
+Get_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Get_Command
 
 //Dependencies for the target
 Get_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Get_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Get_Command
+Get_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Get_Command
 
 //Value Computed by CMake
-Global_Module_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/modules/Global_Module
+Global_Module_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/modules/Global_Module
 
 //Dependencies for the target
 Global_Module_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Global_Module_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/modules/Global_Module
+Global_Module_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/modules/Global_Module
 
 //Value Computed by CMake
-Help_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Help_Command
+Help_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Help_Command
 
 //Dependencies for the target
 Help_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Help_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Help_Command
+Help_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Help_Command
 
 //IDF Build Target
 IDF_TARGET:STRING=esp32
@@ -314,34 +314,34 @@ IDF_TARGET:STRING=esp32
 INSTALL_MBEDTLS_HEADERS:BOOL=ON
 
 //Value Computed by CMake
-IOWrite_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/IOWrite_Command
+IOWrite_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/IOWrite_Command
 
 //Dependencies for the target
 IOWrite_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-IOWrite_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/IOWrite_Command
+IOWrite_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/IOWrite_Command
 
 //Value Computed by CMake
-Include_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Include_Command
+Include_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Include_Command
 
 //Dependencies for the target
 Include_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Include_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Include_Command
+Include_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Include_Command
 
 //Explicitly link mbed TLS library to pthread.
 LINK_WITH_PTHREAD:BOOL=OFF
 
 //Value Computed by CMake
-List_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/List_Command
+List_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/List_Command
 
 //Dependencies for the target
 List_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-List_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/List_Command
+List_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/List_Command
 
 //Path to a program.
 PERL_EXECUTABLE:FILEPATH=/usr/bin/perl
@@ -353,22 +353,22 @@ PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 PYTHON_EXECUTABLE:FILEPATH=/home/maikschulze/.espressif/python_env/idf4.1_py3.8_env/bin/python
 
 //Value Computed by CMake
-Rename_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Rename_Command
+Rename_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Rename_Command
 
 //Dependencies for the target
 Rename_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Rename_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Rename_Command
+Rename_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Rename_Command
 
 //Value Computed by CMake
-Rereadcfg_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Rereadcfg_Command
+Rereadcfg_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Rereadcfg_Command
 
 //Dependencies for the target
 Rereadcfg_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Rereadcfg_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Rereadcfg_Command
+Rereadcfg_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Rereadcfg_Command
 
 //Value Computed by CMake
 SCDE_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build
@@ -377,40 +377,40 @@ SCDE_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build
 SCDE_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device
 
 //Value Computed by CMake
-Save_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Save_Command
+Save_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Save_Command
 
 //Dependencies for the target
 Save_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Save_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Save_Command
+Save_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Save_Command
 
 //Value Computed by CMake
-Set_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Set_Command
+Set_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Set_Command
 
 //Dependencies for the target
 Set_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Set_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Set_Command
+Set_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Set_Command
 
 //Value Computed by CMake
-Setstate_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Setstate_Command
+Setstate_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Setstate_Command
 
 //Dependencies for the target
 Setstate_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Setstate_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Setstate_Command
+Setstate_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Setstate_Command
 
 //Value Computed by CMake
-Shutdown_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/commands/Shutdown_Command
+Shutdown_Command_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/commands/Shutdown_Command
 
 //Dependencies for the target
 Shutdown_Command_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-Shutdown_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/commands/Shutdown_Command
+Shutdown_Command_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/commands/Shutdown_Command
 
 //Value Computed by CMake
 Telnet_Module_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/modules/Telnet_Module
@@ -444,6 +444,9 @@ __idf_BMP180_Module_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;ge
 
 //Dependencies for the target
 __idf_ESP32_DeVICE_Module_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
+
+//Dependencies for the target
+__idf_ESP32_DeVICE_Modulex_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Dependencies for the target
 __idf_ESP32_I2C_Master_Module_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
@@ -650,13 +653,13 @@ __idf_wpa_supplicant_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;g
 __idf_xtensa_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp32;general;/home/maikschulze/ESP32/esp-idf/components/xtensa/esp32/libhal.a;
 
 //Value Computed by CMake
-core_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/lib/core
+core_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf/main/scde_core/core
 
 //Dependencies for the target
 core_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_esp_common;general;__idf_xtensa;general;__idf_esp32;
 
 //Value Computed by CMake
-core_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/lib/core
+core_SOURCE_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/main/scde_core/core
 
 //Value Computed by CMake
 esp-idf_BINARY_DIR:STATIC=/home/maikschulze/ESP32/ESP32_Device/build/esp-idf
