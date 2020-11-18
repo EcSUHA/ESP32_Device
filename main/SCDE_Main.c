@@ -1274,49 +1274,13 @@ app_main(void)
 
   // --- now the optional modules
 
-  // Activate BH1750 as SCDE built-in Module
-  extern ProvidedByModule_t BH1750_ProvidedByModule;
-  CommandActivateModule(&BH1750_ProvidedByModule);
-
-  // Activate BMP180 as SCDE built-in Module
-  extern ProvidedByModule_t BMP180_ProvidedByModule;
-  CommandActivateModule(&BMP180_ProvidedByModule);
-
   // Activate ESP32_DeVICE as SCDE built-in Module
   extern ProvidedByModule_t ESP32_DeVICE_ProvidedByModule;
   CommandActivateModule(&ESP32_DeVICE_ProvidedByModule);
 
-  // Activate ESP32_I2C_Master as SCDE built-in Module
-  extern ProvidedByModule_t ESP32_I2C_Master_ProvidedByModule;
-  CommandActivateModule(&ESP32_I2C_Master_ProvidedByModule);
-
-  // Activate ESP32_S0 as SCDE built-in Module
-  extern ProvidedByModule_t ESP32_S0_ProvidedByModule;
-  CommandActivateModule(&ESP32_S0_ProvidedByModule);
-
-  // Activate ESP32_SPI as SCDE built-in Module
- // extern ProvidedByModule_t ESP32_SPI_ProvidedByModule;
- // CommandActivateModule(&ESP32_SPI_ProvidedByModule);
-
-  // Activate ESP32_SwITCH as SCDE built-in Module
-  extern ProvidedByModule_t ESP32_SwITCH_ProvidedByModule;
-  CommandActivateModule(&ESP32_SwITCH_ProvidedByModule);
-
-  // Activate ESP32_TouchGUI1 as SCDE built-in Module
-//  extern ProvidedByModule_t ESP32_TouchGUI1_ProvidedByModule;
-//  CommandActivateModule(&ESP32_TouchGUI1_ProvidedByModule);
-
-  // Activate SSD1306 as SCDE built-in Module
-  extern ProvidedByModule_t SSD1306_ProvidedByModule;
-  CommandActivateModule(&SSD1306_ProvidedByModule);
-
   // Activate Telnet as SCDE built-in Module
   extern ProvidedByModule_t Telnet_ProvidedByModule;
   CommandActivateModule(&Telnet_ProvidedByModule);
-
-  // Activate WebIF as SCDE built-in Module
-  extern ProvidedByModule_t WebIf_ProvidedByModule;
-  CommandActivateModule(&WebIf_ProvidedByModule);
 
 // -------------------------------------------------------------------------------------------------
 // initialize the global definition
