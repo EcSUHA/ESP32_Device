@@ -1,3 +1,0 @@
-SetsteteFN -> new calling
-
-move SCDE core to components
