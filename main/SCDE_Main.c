@@ -1196,8 +1196,8 @@ app_main(void)
 // embedd commands A-Z
 
   // Activate Add as SCDE built-in Command
-  extern ProvidedByCommand_t Add_ProvidedByCommand;
-  CommandActivateCommand(&Add_ProvidedByCommand);
+//  extern ProvidedByCommand_t Add_ProvidedByCommand;
+//  CommandActivateCommand(&Add_ProvidedByCommand);
 
   // Activate Attr as SCDE built-in Command
   extern ProvidedByCommand_t Attr_ProvidedByCommand;
@@ -1260,8 +1260,8 @@ app_main(void)
   CommandActivateCommand(&Shutdown_ProvidedByCommand);
 
   // Activate Sub as SCDE built-in Command
-  extern ProvidedByCommand_t Sub_ProvidedByCommand;
-  CommandActivateCommand(&Sub_ProvidedByCommand);
+//  extern ProvidedByCommand_t Sub_ProvidedByCommand;
+//  CommandActivateCommand(&Sub_ProvidedByCommand);
 
 // -------------------------------------------------------------------------------------------------
 // embedd modules A-Z (we have no file system to load)
