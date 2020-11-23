@@ -7,8 +7,8 @@ cmake_policy(VERSION 2.6)
  # This SCDE projects additional library targets
  
   # the additional Commands
-
+  
   # the additional Modules
-  add_subdirectory(modules/Telnet_Module)
+
 
 
