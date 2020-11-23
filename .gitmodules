@@ -7,3 +7,6 @@
 [submodule "components/ESP32_DeVICE_Module"]
 	path = components/ESP32_DeVICE_Module
 	url = ../ESP32_DeVICE_Module.git
+[submodule "main/scde_optional/modules/Telnet_Module"]
+	path = main/scde_optional/modules/Telnet_Module
+	url = ../Telnet_Module.git
