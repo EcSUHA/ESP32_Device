@@ -1286,10 +1286,21 @@ app_main(void)
 // initialize the global definition
 
   // for response msg from AnalyzeCommand
-  struct headRetMsgMultiple_s headRetMsgMultiple;
+//  struct headRetMsgMultiple_s headRetMsgMultiple;
 
-  #define CMD_4_GLOBAL "define Global Global"
-  headRetMsgMultiple = AnalyzeCommand((const uint8_t*) CMD_4_GLOBAL, 20);//sizeof(CMD_4_TELNET));
+//  #define CMD_4_GLOBAL "define Global Global"
+//  headRetMsgMultiple = AnalyzeCommand((const uint8_t*) CMD_4_GLOBAL, 20);//sizeof(CMD_4_TELNET));
+
+  String_t x = { (const uint8_t*) "define Global Global", 20};
+  struct Head_String_s head_ret_msg = AnalyzeCommand(x);
+
+  // temp conversion start
+  struct headRetMsgMultiple_s headRetMsgMultiple;
+  STAILQ_INIT(&headRetMsgMultiple);
+  headRetMsgMultiple.stqh_first =  head_ret_msg.stqh_first;
+  headRetMsgMultiple.stqh_last =  head_ret_msg.stqh_last;
+// temp conversion end
+
 
   // retMsgMultiple stailq filled ?
   if (!STAILQ_EMPTY(&headRetMsgMultiple)) {
