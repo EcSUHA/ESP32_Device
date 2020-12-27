@@ -779,20 +779,20 @@ SelectQueryTask(void *pvParameters)
 				p_entry_definition->fd);
 */
 			// select for reading, but only if an Fn is installed
-			if (p_entry_definition->module->provided->DirectReadFn) {
+			if (p_entry_definition->module->provided->direct_read_fn) {
 
 				FD_SET (sd , &readfds);
 			}
 
 			// select for writing (if wants to write), but only if an Fn is installed
 			if  ( (p_entry_definition->Common_CtrlRegA & F_WANTS_WRITE)
-				&& (p_entry_definition->module->provided->DirectWriteFn) ) {
+				&& (p_entry_definition->module->provided->direct_write_fn) ) {
 
 				FD_SET (sd , &writefds);
 			}
 
 			// select for exceptions, but only if an Fn is installed
-			if (p_entry_definition->module->provided->ExceptFn) {
+			if (p_entry_definition->module->provided->except_fn) {
 
 				FD_SET (sd , &exceptfds);
 			}
@@ -876,14 +876,14 @@ SelectQueryTask(void *pvParameters)
 
 				// first check for write availability, but only if 'F_WANTS_WRITE' and 'DirectWriteFn' is installed
 				if ( ( p_entry_definition->Common_CtrlRegA & F_WANTS_WRITE ) &&
-					( p_entry_definition->module->provided->DirectWriteFn ) &&
+					( p_entry_definition->module->provided->direct_write_fn ) &&
 					( FD_ISSET(sd , &writefds) ) ) {
 
 					// clear Flag F_WANTS_WRITE, should be set again when more data should be sended
 					p_entry_definition->Common_CtrlRegA &= ~F_WANTS_WRITE;
 
 					// execute the write function
-					p_entry_definition->module->provided->DirectWriteFn(p_entry_definition);
+					p_entry_definition->module->provided->direct_write_fn(p_entry_definition);
 				}
 			}
 
@@ -911,11 +911,11 @@ SelectQueryTask(void *pvParameters)
 			if (sd != -1) {
 
 				// second check for read availability. But only if a function is installed
-				if ( (p_entry_definition->module->provided->DirectReadFn) &&
+				if ( (p_entry_definition->module->provided->direct_read_fn) &&
 					(FD_ISSET(sd , &readfds)) ) {
 
 					// execute the read function
-					p_entry_definition->module->provided->DirectReadFn(p_entry_definition);
+					p_entry_definition->module->provided->direct_read_fn(p_entry_definition);
 				}
 			}
 
@@ -942,12 +942,12 @@ SelectQueryTask(void *pvParameters)
 			if (sd != -1) {
 
 				// third check for exceptions. But only if a function is installed
-				if ( (p_entry_definition->module->provided->ExceptFn) &&
+				if ( (p_entry_definition->module->provided->except_fn) &&
 
 					(FD_ISSET(sd , &exceptfds)) ) {
 
 					// execute the exception function
-					p_entry_definition->module->provided->ExceptFn(p_entry_definition);
+					p_entry_definition->module->provided->except_fn(p_entry_definition);
 				}
 			}
 
@@ -969,7 +969,7 @@ SelectQueryTask(void *pvParameters)
 	STAILQ_FOREACH(p_entry_definition, &SCDERoot.HeadCommon_Definitions, entries) {
 
 		// check if F_WANTS_IDLE_TASK is set and IdleCbFn Fn is installed
-		if ( (p_entry_definition->module->provided->IdleCbFn)
+		if ( (p_entry_definition->module->provided->idle_cb_fn)
 
 			&& (p_entry_definition->Common_CtrlRegA & F_WANTS_IDLE_TASK) ) {
 
@@ -984,7 +984,7 @@ SelectQueryTask(void *pvParameters)
 			p_entry_definition->Common_CtrlRegA &= ~F_WANTS_IDLE_TASK;
 
 			// execute the idle callback function
-			p_entry_definition->module->provided->IdleCbFn(p_entry_definition);
+			p_entry_definition->module->provided->idle_cb_fn(p_entry_definition);
 		}
 	}
 //temp here
@@ -1263,6 +1263,10 @@ app_main(void)
 //  extern ProvidedByCommand_t Sub_ProvidedByCommand;
 //  CommandActivateCommand(&Sub_ProvidedByCommand);
 
+  // Activate Trigger as SCDE built-in Command
+  extern ProvidedByCommand_t Trigger_ProvidedByCommand;
+  CommandActivateCommand(&Trigger_ProvidedByCommand);
+  
 // -------------------------------------------------------------------------------------------------
 // embedd modules A-Z (we have no file system to load)
 

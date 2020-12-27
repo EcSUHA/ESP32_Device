@@ -68,6 +68,7 @@ add_subdirectory(scde_optional)
 											Set_Command
 											Setstate_Command
 											Shutdown_Command
+											Trigger_Command
   # the embedded Modules																					
 											Global_Module
   # the additional Commands

@@ -43,6 +43,7 @@
 #define Setstate_Command_DBG                          7
 #define Shutdown_Command_DBG                          7
 #define Sub_Command_DBG                               7
+#define Trigger_Command_DBG                           7
 #define IOWrite_Command_DBG                           7
 
 // Module logging verbose - override    0 1 2 3 4 5 6 7 8 9
