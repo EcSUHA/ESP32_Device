@@ -10,5 +10,6 @@ cmake_policy(VERSION 2.6)
 
   # the additional Modules
   add_subdirectory(Telnet_Module)
+  add_subdirectory(WebIf_Module)
 
 

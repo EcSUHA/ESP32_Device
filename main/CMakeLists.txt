@@ -74,7 +74,8 @@ add_subdirectory(scde_optional)
   # the additional Commands
    
   # the additional Modules
-											Telnet_Module)      
+											Telnet_Module
+											WebIf_Module)      
 											
 											
 											

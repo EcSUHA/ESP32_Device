@@ -9444,7 +9444,7 @@ const WebIf_ActiveResourcesDataB_t WebIf_ActiveResourcesDataB_forWebIf[] =  {  /
  ,{(17<<16) +	0b0000000000000100,	NULL,NULL}//	WifiSetMode_cgi,	NULL		}	
 
   // ### Service Access Point Cfg ###
- ,{(18<<16) +	0b0000000000000010,	WebIf_EspFSAdvFileTX,	ServAPCfg_tpl	}
+ ,{(18<<16) +	0b0000000000000010,	NULL,NULL}//WebIf_EspFSAdvFileTX,	ServAPCfg_tpl	}
  ,{(18<<16) +	0b0000000000000100,	NULL,NULL}//	ServAPCfg_cgi,		NULL		}
  ,{(18<<16) +	0b0000000000001000,	NULL,NULL}//	ServAPCfg_jso,		NULL		}
 

@@ -1286,6 +1286,10 @@ app_main(void)
   extern ProvidedByModule_t Telnet_ProvidedByModule;
   CommandActivateModule(&Telnet_ProvidedByModule);
 
+  // Activate WebIF as SCDE built-in Module
+  extern ProvidedByModule_t WebIf_ProvidedByModule;
+  CommandActivateModule(&WebIf_ProvidedByModule);
+
 // -------------------------------------------------------------------------------------------------
 // initialize the global definition
 
